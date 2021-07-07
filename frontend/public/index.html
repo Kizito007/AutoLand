@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/blue/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/blue/vendor/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/blue/vendor/photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="./assets/blue/vendor/photoswipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="./assets/blue/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="./assets/blue/css/style.css">
+    <!-- font - fontawesome -->
+    <link rel="stylesheet" href="./assets/blue/vendor/fontawesome/css/all.min.css">
+    <!-- font - stroyka -->
+    <link rel="stylesheet" href="./assets/blue/fonts/stroyka/stroyka.css">
+    <title>AutoLand</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="site"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- quickview-modal -->
+    <div id="quickview-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content"></div>
+      </div>
+    </div>
+    <!-- quickview-modal / end -->
+    <!-- photoswipe -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <!--<button class="pswp__button pswp__button&#45;&#45;share" title="Share"></button>-->
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- photoswipe / end -->
+    <!-- js -->
+    <script src="./assets/blue/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/blue/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/blue/vendor/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./assets/blue/vendor/nouislider/nouislider.min.js"></script>
+    <script src="./assets/blue/vendor/photoswipe/photoswipe.min.js"></script>
+    <script src="./assets/blue/vendor/photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="./assets/blue/vendor/select2/js/select2.min.js"></script>
+    <script src="./assets/blue/js/number.js"></script>
+    <script src="./assets/blue/js/main.js"></script>
+    <script src="./assets/blue/js/header.js"></script>
+    <script src="./assets/blue/vendor/svg4everybody/svg4everybody.min.js"></script>
+    <script>
+        svg4everybody();
+    </script>
+  </body>
+</html>
